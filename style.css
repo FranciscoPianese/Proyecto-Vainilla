@@ -30,12 +30,12 @@ main{
 }
 
 .fondo-sector {
-    background-image: url(https://cdn0.bodas.net/article/3813/3_2/1280/jpg/63183-1.jpeg); /* URL de la imagen */
-    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    padding: 50px; /* Ajusta el espacio interno según sea necesario */
-    color: white; /* Color del texto dentro del sector */
+    background-image: url(https://cdn0.bodas.net/article/3813/3_2/1280/jpg/63183-1.jpeg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 50px;
+    color: white; 
 }
 
 
@@ -52,4 +52,12 @@ main{
 }
 .border{
     border: 5px solid black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    background-color: white;
+    padding: 16px;
 }
